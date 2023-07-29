@@ -12,54 +12,55 @@
             padding: 0;
             background-color: #f6f6f6;
         }
-        
+
         header {
             background-color: #262626;
             color: #fff;
             padding: 10px 20px;
             text-align: center;
         }
-        
+
         h1 {
             font-size: 36px;
             margin: 0;
             padding: 20px 0;
         }
-        
+
         img {
             width: 100%;
             height: auto;
         }
-        
+
         nav {
             background-color: #333;
             text-align: center;
             padding: 10px;
         }
-        
+
         nav a {
             color: #fff;
             text-decoration: none;
             margin: 0 10px;
         }
-        
+
         nav a:hover {
-            color: #ffd700; /* Change to your desired color for hover effect */
+            color: #ffd700;
+            /* Change to your desired color for hover effect */
         }
-        
+
         footer {
             background-color: #262626;
             color: #fff;
             text-align: center;
             padding: 10px;
         }
-        
+
         /* Additional styles for the deliveries section */
         .delivery-section {
             text-align: center;
             padding: 20px;
         }
-        
+
         .delivery-option {
             margin-bottom: 20px;
             background-color: #fff;
@@ -67,22 +68,27 @@
             box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
             padding: 10px;
         }
-        
+
         .delivery-option img {
             max-width: 100%;
             border-radius: 8px;
             margin-bottom: 10px;
         }
-        
+
         .delivery-option h2 {
             font-size: 24px;
             margin: 0;
             margin-bottom: 5px;
         }
-        
+
         .delivery-option p {
             font-size: 16px;
             margin: 0;
+        }
+
+        .select {
+            font: size 32px;
+            background-color: brown;
         }
     </style>
 </head>
@@ -108,9 +114,21 @@
             <p>Shipping time: 60 min</p>
             <p>Shipping fee: 5NIS or free for orders above 50 NIS</p>
         </div>
-        
+
         <!-- Add more delivery options as needed -->
     </div>
+    <FORm action="mysersver.com" class="select">
+        <label for="coffee">
+            <h2> Chooze your coffee:</h2>
+        </label>
+        <select name="chooze your coffee" id="chooze your coffee">
+            <option value="classic coffee">classic coffee</option>
+            <option value="espresso">espresso</option>
+            <option value="cappuccino">cappuccino</option>
+        </select>
+        <br><br>
+        <input type="submit" value="Submit">
+    </FORm>
 
     <nav>
         <a href="index.gpt.html">Home</a>
